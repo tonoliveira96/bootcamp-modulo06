@@ -1,18 +1,15 @@
 
-import React, {Component}from 'react';
-import { Platform,StyleSheet, View,Text} from 'react-native';
+import React from 'react';
+import { Platform, StyleSheet, View,Text} from 'react-native';
 
-export default class App extends Component {
-  render(){
-    return (
-          <View style={styles.container}>
-            <Text style={styles.welcome}>Welcome to React</Text>
-            <Text style={styles.welcome}>Abaixo</Text>
-          </View>
-  );
-  }
-
-};
+export default function App(){
+  return (
+    <View style={styles.container}>
+      <Text style={styles.welcome}>Welcome to React</Text>
+      <Text style={styles.welcome}>Abaixo</Text>
+    </View>
+);
+}
 
 const styles = StyleSheet.create({
   container:{
