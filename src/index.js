@@ -2,6 +2,7 @@
 import React from 'react';
 import { Platform, StyleSheet, View,Text} from 'react-native';
 
+import './config/ReactotronConfig';
 export default function App(){
   return (
     <View style={styles.container}>
